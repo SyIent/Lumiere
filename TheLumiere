@@ -1,0 +1,352 @@
+--Orion Library
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source')))()
+--Window
+local Window = OrionLib:MakeWindow({
+  Name = "Lumiere | HUB", 
+  HidePremium = false, 
+  SaveConfig = true,
+  IntroEnabled = true,
+  IntroText = "Loading Lumiere...",
+  ConfigFolder = "OrionTest",
+})
+--AvatarTab
+local AvatarTab = Window:MakeTab({
+	Name = "Avatar",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+--AvatarSection
+local AvatarSection = AvatarTab:AddSection({
+	Name = "Avatar"
+})
+--Avatar
+AvatarTab:AddButton({
+	Name = "HEADLESS",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/LdPVmnft"))()
+  	end    
+})
+AvatarTab:AddButton({
+	Name = "KORBLOX Right Leg",
+	Callback = function()
+      		
+  	end    
+})
+--Animations section
+local AnimationSection = AvatarTab:AddSection({
+	Name = "Avatar"
+})
+--Animations
+AvatarTab:AddButton({
+	Name = "DarkraiX Animation",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
+  	end    
+})
+AvatarTab:AddButton({
+	Name = "Gazer FE Animation",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Gazer-Ha/Animated/main/G"))()
+  	end    
+})
+--AdminTab
+local AdminTab = Window:MakeTab({
+	Name = "Admin",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+--AdminButtons
+AdminTab:AddButton({
+	Name = "Infinite Yield",
+	Callback = function()
+      		loadstring(game:HttpGet("https://rawscripts.net/raw/Infinite-Yield_500"))()
+  	end    
+})
+AdminTab:AddButton({
+	Name = "Nameless admin",
+	Callback = function()
+      		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-nameless-admin-15646"))()
+  	end    
+})
+AdminTab:AddButton({
+	Name = "Fates Admin",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))()
+  	end   
+})
+AdminTab:AddButton({
+	Name = "CMD X",
+	Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source", true))()
+	end   
+})
+AdminTab:AddButton({
+	Name = "Reviz Admin (doesnt work on some executor",
+	Callback = function()
+          loadstring(game:HttpGetAsync("https://pastebin.com/raw/Caniwq2N"))()
+	end   
+})
+--TrollingTab
+local TrollingTab = Window:MakeTab({
+	Name = "Trolling",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+--Trollingguisection
+local TrollingguiSection = TrollingTab:AddSection({
+	Name = "TROLLING GUI'S"
+})
+--TrollingButton
+TrollingTab:AddButton({
+	Name = "SanderX (Brookhaven)",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/sXPiterXs1111/SanderXV2.65/main/sanderXNewV2.65.lua'))()
+  	end   
+})
+TrollingTab:AddButton({
+	Name = "Admin Trolling Sky Hub",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/yofriendfromschool1/Sky-Hub/main/FE%20Trolling%20GUI.luau"))
+  	end   
+})
+TrollingTab:AddButton({
+	Name = "Bang GUI",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/InmortalBL/InmortalBL/main/BANG"))()
+	end
+})
+--TrollingPlayer
+local TrollingPlayerSection = TrollingTab:AddSection({
+	Name = "Player Trolling"
+})
+--TrollingPlayerButtons
+TrollingTab:AddButton({
+	Name = "Walk on walls",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/zXk4Rq2r"))()
+  	end   
+})
+--GameTab
+local GameTab = Window:MakeTab({
+	Name = "GameHubs",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+--DaHoodSection
+local DahoodSection = GameTab:AddSection({
+	Name = "DA HOOD"
+})
+GameTab:AddButton({
+	Name = "SwagMode (suggested by danmark0629",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+  	end   
+})
+GameTab:AddButton({
+	Name = "Hellbound Camlock",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/YG46cyBf"))() 
+  	end   
+})
+GameTab:AddButton({
+	Name = "Jj lock (needs C Tool)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/epqk9g4i"))()
+  	end   
+})
+GameTab:AddButton({
+	Name = "Q tool",
+	Callback = function()
+          loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Q-tool-10499"))()
+  	end   
+})
+GameTab:AddButton({
+	Name = "Nyula",
+	Callback = function()
+          loadstring(game:HttpGet("https://rawscripts.net/raw/Untitled-Hood-nyula-4562"))()
+  	end   
+})
+GameTab:AddButton({
+	Name = "AzureModded (PC)",
+	Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/Actyrn/Scripts/main/AzureModded"))()
+  	end   
+})
+--mm2section
+local MM2Section = GameTab:AddSection({
+	Name = "MURDER MYSTERY 2"
+})
+GameTab:AddButton({
+	Name = "YARHM MM2 (Mobile & Pc)",
+	Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
+  	end   
+})
+GameTab:AddButton({
+	Name = "Symphony Hub",
+	Callback = function()
+          loadstring(game:HttpGet('https://raw.githubusercontent.com/ThatSick/ArrayField/main/SymphonyHub.lua'))()
+  	end   
+})
+GameTab:AddButton({
+	Name = "Tbao Hub",
+	Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/tbao143/thaibao/main/TbaoHubMurderMystery2"))()
+  	end   
+})
+GameTab:AddButton({
+	Name = "Unnamed (OP)",
+	Callback = function()
+          loadstring(game:HttpGet('https://raw.githubusercontent.com/pcallskeleton/CE-Technologies/main/script', true))()
+	end   
+})
+GameTab:AddButton({
+	Name = "HiddenScriptsHub (Recommend)",
+	Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/ScriptingHubs/HiddenScripts/main/Mm2-HiddenScriptsHubYT"))()
+	end   
+})
+--brookhavensection
+local MM2Section = GameTab:AddSection({
+	Name = "BROOKHAVEN"
+})
+GameTab:AddButton({
+	Name = "JulHub",
+	Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/JulHubz/JulHub/main/JulHub"))()
+	end   
+})
+GameTab:AddButton({
+	Name = "ImperialHub",
+	Callback = function()
+          loadstring(game:HttpGet(("https://raw.githubusercontent.com/Trev0rZ/LoaderM/main/ImperialHub-Working.lua"),true))()
+	end   
+})
+GameTab:AddButton({
+	Name = "SanderX (Trolling)",
+	Callback = function()
+          loadstring(game:HttpGet('https://raw.githubusercontent.com/sXPiterXs1111/SanderXV2.65/main/sanderXNewV2.65.lua'))()
+	end   
+})
+GameTab:AddButton({
+	Name = "REDz HUB",
+	Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))()
+	end   
+})
+GameTab:AddButton({
+	Name = "Blizzard HUB",
+	Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/uaahjajajqoqiqkqhwhwhw/Blizzard-Hub-Official/main/Blizzard%20Hub%20V2.lua", true))()
+	end   
+})
+--BloxFruits
+local BLXFSection = GameTab:AddSection({
+	Name = "BLOX FRUITS"
+})
+--BlxFruitsButtons
+GameTab:AddButton({
+	Name = "Min Gaming Hub",
+	Callback = function()
+          loadstring(game:HttpGet"https://raw.githubusercontent.com/Basicallyy/Basicallyy/main/MinGamingV4.lua")()
+	end   
+})
+GameTab:AddButton({
+	Name = "REDzHUB",
+	Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/BloxFruits/main/redz9999"))()
+	end   
+})
+GameTab:AddButton({
+	Name = "LunarX HUB",
+	Callback = function()
+          _G.Team = "Pirates"--Marines
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NguyenLam2504/LunarXHubNextGeneration/main/GameShit.lua"))()
+	end   
+})
+GameTab:AddButton({
+	Name = "LunarX HUB",
+	Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/ahmadsgamer2/Speed-Hub-X/main/SpeedHubX", true))()
+	end   
+})
+--PlayerTab
+local BlueTab = Window:MakeTab({
+	Name = "Player",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+--CharacterSection
+local CharacterSection = BlueTab:AddSection({
+	Name = "Character"
+})
+BlueTab:AddTextbox({
+	Name = "WalkSpeed (Default 16)",
+	Default = "16",
+	TextDisappear = true,
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = Value
+	end	  
+})
+BlueTab:AddTextbox({
+	Name = "Jump Power (Default 50)",
+	Default = "50",
+	TextDisappear = true,
+	Callback = function(Value)
+		game.Players.LocalPlayer.Character.Humanoid.JumpPower = Value
+	end	  
+})
+BlueTab:AddButton({
+	Name = "Infinite Jump",
+	Callback = function()
+          loadstring(game:HttpGet("https://pastebin.com/raw/u9EuU3FE"))()
+	end   
+})
+BlueTab:AddButton({
+	Name = "Fly (Mobile)",
+	Callback = function()
+          loadstring(game:HttpGet('https://pastebin.com/raw/YSL3xKYU'))()
+	end   
+})
+--GameSettings
+local GaySection = BlueTab:AddSection({
+	Name = "Game Settings"
+})
+BlueTab:AddButton({
+	Name = "Rejoin",
+	Callback = function()
+          loadstring(game:HttpGet("https://pastebin.com/raw/1gtVMUz3"))()
+	end   
+})
+BlueTab:AddButton({
+	Name = "Dark DEX",
+	Callback = function()
+          loadstring(game:HttpGet("https://github.com/Hosvile/DEX-Explorer/releases/latest/download/main.lua",true))()
+	end   
+})
+BlueTab:AddButton({
+	Name = "FPS Counter",
+	Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/Sempiller/sdluniversal/main/fpsviewer.lua"))()
+	end
+})
+BlueTab:AddButton({
+	Name = "Low GFX",
+	Callback = function()
+          loadstring(game:HttpGet('https://pastebin.com/raw/RW7ZT29m'))()
+	end
+})
+BlueTab:AddButton({
+	Name = "Turtle SPY",
+	Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/Turtle-Brand/Turtle-Spy/main/source.lua",true))()
+	end
+})	
+BlueTab:AddButton({
+	Name = "Simple Spy (RECOMMEND)",
+	Callback = function()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/78n/SimpleSpy/main/SimpleSpySource.lua"))()
+	end
+})	
+OrionLib:Init()
