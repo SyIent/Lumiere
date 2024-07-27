@@ -274,7 +274,7 @@ GameTab:AddButton({
 --PlayerTab
 local BlueTab = Window:MakeTab({
 	Name = "Player",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://7992557371",
 	PremiumOnly = false
 })
 --CharacterSection
